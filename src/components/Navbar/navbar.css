@@ -1,0 +1,35 @@
+.navbar {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #131313;
+}
+
+.navbar .navbar__search-input form input[type="search"] {
+  background-color: #282828;
+  outline: none;
+  border: 0;
+  color: #fff;
+  padding: 1.5rem 6.5rem;
+}
+
+.navbar .navbar__cart span {
+  color: #626262;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+.navbar .navbar__cart .navbar__cart-count {
+  color: #fff;
+  background-color: #19E490;
+  padding: 0.8rem;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=navbar.css.map */

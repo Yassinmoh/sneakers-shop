@@ -1,0 +1,30 @@
+.navbar{
+    padding: 1rem 0;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #131313;
+    .navbar__search-input{
+        form input[type="search"]{
+            background-color: #282828;
+            outline: none;
+            border: 0;
+            color: #fff;
+            padding: 1.5rem 6.5rem;
+        }
+    }
+    .navbar__cart{
+        span{
+            color: #626262;
+            font-size:14px;
+            font-weight:700;
+            margin-left: 0.5rem;
+        }
+        .navbar__cart-count{
+            color: #fff;
+            background-color: #19E490;
+            padding: 0.8rem;
+            border-radius:50%;
+        }
+    }
+}
