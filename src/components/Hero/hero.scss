@@ -1,0 +1,45 @@
+.hero{
+    width: 100%;
+    height: 48rem;
+    background: url('../../../public/layer.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+        .sneker-img{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+                .dot{
+                    display: flex;
+                justify-content: center;
+                align-items: center;
+                    background: url('../../../public/dots.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 100%;
+                    height: 30rem;
+                }
+            span{
+                
+                color:#FFFFFF;
+                font-size:32px;
+                line-height:78px;
+                letter-spacing:16px;
+                font-weight:600;
+                text-transform:uppercase;
+
+            }
+        }
+        .sneker-shaadow{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin-top: -8rem;
+            margin-right: 22rem;
+        }
+
+}
