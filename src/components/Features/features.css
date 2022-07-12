@@ -1,0 +1,50 @@
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.features-wrapper {
+  margin-top: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features-wrapper .item {
+  width: 23%;
+}
+
+.features-wrapper .item-icon span {
+  font-size: 4.5rem;
+  color: #3cb06cd0;
+}
+
+.features-wrapper .item-title h4 {
+  color: #0A0A0A;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.features-wrapper .item-desc p {
+  margin-top: 1.1rem;
+  color: #BBBBBB;
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=features.css.map */

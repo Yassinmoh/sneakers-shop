@@ -1,0 +1,39 @@
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.features-wrapper{
+    margin-top:7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        .item{
+            width: 23%;
+        }
+        .item-icon{
+            span{
+                font-size:4.5rem;
+                color:#3cb06cd0;
+            }
+        }
+        .item-title{
+            h4{
+                color: #0A0A0A;
+                font-size:18px;
+                line-height:28px;
+                font-weight:700;
+                text-transform:uppercase;
+            }
+        }
+        .item-desc{
+            p{
+                margin-top:1.1rem;
+                color:#BBBBBB;
+                font-size:15px;
+                line-height:27px;
+                font-weight:500;
+            }
+        }
+}

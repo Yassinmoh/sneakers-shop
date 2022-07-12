@@ -1,0 +1,71 @@
+.gender-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  width: 100%;
+}
+
+.gender-wrapper .img-1 img {
+  width: 29rem;
+  height: 600px;
+}
+
+.gender-wrapper .img-2 img {
+  width: 29rem;
+  height: 600px;
+}
+
+.gender-wrapper .text-section {
+  background-color: #0a0a0a;
+  height: 602px;
+}
+
+.gender-wrapper .text-section p {
+  margin-top: 3rem;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.gender-wrapper .text-section h2 {
+  margin-top: 9rem;
+  color: #FFFFFF;
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.gender-wrapper .text-section button {
+  margin: 3rem auto;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  border: 1px solid #FFFFFF;
+  background-color: #0a0a0a;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=gender.css.map */
