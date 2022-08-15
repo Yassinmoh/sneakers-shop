@@ -5,6 +5,8 @@ import Menu from './components/Menu/Menu';
 import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
 import Gender from './components/Gender/Gender';
+import Footer from './components/Footer/Footer';
+// import Products from './components/Products/Products';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Hero/>
       <Features/>
       <Gender/>
+      <Footer/>
+      {/* <Products/> */}
     </div>
   );
 }

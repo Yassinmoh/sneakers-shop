@@ -26,3 +26,96 @@ export const featuresCard=[
         icon:<FaRegHandshake/>
     }
 ]
+
+export const productData=[
+    {
+        id:1,
+        title:"Nike SF Air Force 1",
+        price:180,
+        description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
+        SKU:15,
+        Category:["Men","Sale"],
+        image:"../public/product-1.jpg"
+    },
+    {
+        id:2,
+        title:"Nike Lunar Force 1 Duckboot",
+        price:140,
+        description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
+        SKU:54,
+        Category:["Men"],
+        image:"../public/product-2.jpg"
+    },
+    {
+        id:3,
+        title:"Pod-S3.1 Trainer",
+        price:200,
+        description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
+        SKU:44,
+        Category:["Men","Sale"],
+        image:"../public/product-3.jpg"
+    },
+    {
+        id:4,
+        title:"Deerupt Runner",
+        price:230,
+        description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
+        SKU:77,
+        Category:["Men","Sale","New"],
+        image:"../public/product-4.jpg"
+    },
+    {
+        id:5,
+        title:"Falcon Trainer",
+        price:222,
+        description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
+        SKU:74,
+        Category:["Women","Sale","New"],
+        image:"../public/product-5.jpg"
+    },
+    {
+        id:6,
+        title:"Samba Rose Traine",
+        price:70,
+        description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
+        SKU:75,
+        Category:["Women","Sale","New"],
+        image:"../public/product-6.jpg"
+    },
+    {
+        id:7,
+        title:"Cali Trainer",
+        price:110,
+        description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
+        SKU:23,
+        Category:["Women"],
+        image:"../public/product-7.jpg"
+    },
+    {
+        id:8,
+        title:"Air Force 1 High Utility",
+        price:150,
+        description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
+        SKU:71,
+        Category:["Women","Kids"],
+        image:"../public/product-8.jpg"
+    },
+    {
+        id:9,
+        title:"Air Max 95 Essential",
+        price:350,
+        description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
+        SKU:61,
+        Category:["Men","New"],
+        image:"../public/product-9.jpg"
+    },
+    {
+        id:10,
+        title:"RS-0 Toys OLD",
+        price:300,
+        description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
+        SKU:62,
+        Category:["Men"],
+        image:"../public/product-10.jpg"
+    },
+]

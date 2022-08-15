@@ -1,0 +1,95 @@
+.footer-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: #F7F7F7;
+}
+
+.footer-section .Need-Help h4,
+.footer-section .About-Us h4,
+.footer-section .Useful-Info h4 {
+  color: #0A0A0A;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.footer-section .Need-Help ul,
+.footer-section .About-Us ul,
+.footer-section .Useful-Info ul {
+  margin-top: 2rem;
+}
+
+.footer-section .Need-Help ul li,
+.footer-section .About-Us ul li,
+.footer-section .Useful-Info ul li {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #A3A3A3;
+  cursor: pointer;
+}
+
+.footer-section .subscribe h4 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.footer-section .subscribe form {
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.footer-section .subscribe form input[type="search"] {
+  border: 0;
+  outline: none;
+  background-color: #FFFFFF;
+  padding: 1.3rem 3rem;
+}
+
+.footer-section .subscribe form input[type="search"]::-webkit-input-placeholder {
+  color: #A3A3A3;
+}
+
+.footer-section .subscribe form input[type="search"]:-ms-input-placeholder {
+  color: #A3A3A3;
+}
+
+.footer-section .subscribe form input[type="search"]::-ms-input-placeholder {
+  color: #A3A3A3;
+}
+
+.footer-section .subscribe form input[type="search"]::placeholder {
+  color: #A3A3A3;
+}
+
+.footer-section .subscribe form button {
+  border: 0;
+  outline: none;
+  background-color: black;
+  color: white;
+  padding: 1.3rem 1.5rem;
+}
+
+.footer-section .subscribe .footer-icons {
+  margin-top: 1.7rem;
+  margin-left: -1rem;
+}
+
+.footer-section .subscribe .footer-icons span {
+  margin-left: 1rem;
+  font-size: 25px;
+  color: #A3A3A3;
+  cursor: pointer;
+}
+/*# sourceMappingURL=footer.css.map */
