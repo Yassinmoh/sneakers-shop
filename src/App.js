@@ -6,17 +6,17 @@ import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
 import Gender from './components/Gender/Gender';
 import Footer from './components/Footer/Footer';
+// import Product from './components/SingleProduct/Product';
 // import Products from './components/Products/Products';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <Menu/>
       <Hero/>
       <Features/>
       <Gender/>
-      <Footer/>
+      {/* <Product/> */}
       {/* <Products/> */}
     </div>
   );

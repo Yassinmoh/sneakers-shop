@@ -35,7 +35,7 @@ export const productData=[
         description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
         SKU:15,
         Category:["Men","Sale"],
-        image:"../public/product-1.jpg"
+        image:"./product-1.jpg"
     },
     {
         id:2,
@@ -44,7 +44,7 @@ export const productData=[
         description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
         SKU:54,
         Category:["Men"],
-        image:"../public/product-2.jpg"
+        image:"./product-2.jpg"
     },
     {
         id:3,
@@ -53,7 +53,7 @@ export const productData=[
         description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
         SKU:44,
         Category:["Men","Sale"],
-        image:"../public/product-3.jpg"
+        image:"./product-3.jpg"
     },
     {
         id:4,
@@ -62,7 +62,7 @@ export const productData=[
         description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
         SKU:77,
         Category:["Men","Sale","New"],
-        image:"../public/product-4.jpg"
+        image:"./product-4.jpg"
     },
     {
         id:5,
@@ -71,7 +71,7 @@ export const productData=[
         description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
         SKU:74,
         Category:["Women","Sale","New"],
-        image:"../public/product-5.jpg"
+        image:"./product-5.jpg"
     },
     {
         id:6,
@@ -80,7 +80,7 @@ export const productData=[
         description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
         SKU:75,
         Category:["Women","Sale","New"],
-        image:"../public/product-6.jpg"
+        image:"./product-6.jpg"
     },
     {
         id:7,
@@ -89,7 +89,7 @@ export const productData=[
         description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
         SKU:23,
         Category:["Women"],
-        image:"../public/product-7.jpg"
+        image:"./product-7.jpg"
     },
     {
         id:8,
@@ -98,7 +98,7 @@ export const productData=[
         description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
         SKU:71,
         Category:["Women","Kids"],
-        image:"../public/product-8.jpg"
+        image:"./product-8.jpg"
     },
     {
         id:9,
@@ -107,7 +107,7 @@ export const productData=[
         description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
         SKU:61,
         Category:["Men","New"],
-        image:"../public/product-9.jpg"
+        image:"./product-9.jpg"
     },
     {
         id:10,
@@ -116,6 +116,6 @@ export const productData=[
         description:"Completely enable resource maximizing e-markets after multimedia based action items. Conveniently supply frictionless synergy via top-line schemas. Credibly revolutionize focused meta-services through business vortals.",
         SKU:62,
         Category:["Men"],
-        image:"../public/product-10.jpg"
+        image:"./product-10.jpg"
     },
 ]
