@@ -1,11 +1,14 @@
 import React from 'react'
 import './navbar.css'
+import { Link } from "react-router-dom";
 import {BiSearch} from 'react-icons/bi'
 const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navbar__logo">
-                <img src='/logo.png' alt="logo"/>
+                <Link to='/'>
+                    <img src='/logo.png' alt="logo"/>
+                </Link>
             </div>
             <div className="navbar__search-input">
                 <form>
