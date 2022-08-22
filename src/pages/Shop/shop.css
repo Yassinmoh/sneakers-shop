@@ -10,13 +10,15 @@
 
 .shop-wrapper .filter-section {
   width: 20%;
+  background-color: #eeeef0;
 }
 
 .shop-wrapper .filter-section input[type="search"] {
   background-color: #292929;
-  padding: 1.5rem 3rem;
+  padding: 1.3rem 3rem;
   border: 0;
   outline: 0;
+  color: white;
 }
 
 .shop-wrapper .filter-section svg {
