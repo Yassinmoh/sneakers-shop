@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './shop.css'
 import { productData } from '../../data'
-import { BsSearch } from 'react-icons/bs'
 import Products from '../../components/Products/Products'
+import Filter from '../../components/Filter/Filter'
 
 
 const Shop = () => {
@@ -10,13 +10,7 @@ const Shop = () => {
     return (
         <div className="shop-wrapper">
             <div className="filter-section">
-                <div className="search">
-                    <input type="search" placeholder="Search Products" />
-                    <BsSearch />
-                </div>
-                <div className="productCategories-section">
-                    <h3>Product Categories</h3>
-                </div>
+                <Filter />
             </div>
             <div className="products-section">
                 <Products products={products}/>

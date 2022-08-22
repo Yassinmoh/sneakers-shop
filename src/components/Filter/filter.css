@@ -1,0 +1,62 @@
+.productFilterTyps-section {
+  margin-top: 1rem;
+}
+
+.productFilterTyps-section .num-of-products {
+  text-align: center;
+}
+
+.productFilterTyps-section .filter-by-size {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.productFilterTyps-section .filter-by-size span {
+  text-align: start;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.productFilterTyps-section .filter-by-size select {
+  margin-top: 0.5rem;
+  height: 53px;
+  outline: none;
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.productFilterTyps-section .filter-by-order {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.productFilterTyps-section .filter-by-order span {
+  text-align: start;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.productFilterTyps-section .filter-by-order select {
+  margin-top: 0.5rem;
+  height: 53px;
+  outline: none;
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=filter.css.map */

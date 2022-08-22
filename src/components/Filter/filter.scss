@@ -1,0 +1,44 @@
+.productFilterTyps-section{
+    margin-top:1rem;
+    .num-of-products{
+        text-align: center;
+    }
+    .filter-by-size{
+        margin-top:2rem;
+        display:flex;
+        flex-direction:column;
+        span{
+            text-align: start;
+            font-size:20px;
+            font-weight:bold;
+        }
+        select{
+            margin-top:0.5rem;
+            height: 53px;
+            outline: none;
+            border-radius:20px;
+            padding: 0.8rem 1rem;
+            font-size:14px;
+            font-weight:500;
+        }
+    }
+    .filter-by-order{
+        margin-top:2rem;
+        display:flex;
+        flex-direction:column;
+        span{
+            text-align: start;
+            font-size:20px;
+            font-weight:bold;
+        }
+        select{
+            margin-top:0.5rem;
+            height: 53px;
+            outline: none;
+            border-radius:20px;
+            padding: 0.8rem 1rem;
+            font-size:14px;
+            font-weight:500;
+        }
+    }
+}
