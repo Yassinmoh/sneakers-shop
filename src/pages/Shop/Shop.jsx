@@ -23,7 +23,19 @@ const Shop = () => {
         }
     }
     const handleFilterByOrder = (e) => {
-        setSort(e.target.value);
+        let order=e.target.value;
+        setSort(order);
+        let productsClone=[...products];
+        let newProducts=productsClone.sort(function(a,b){
+            if(order == 'lowest'){
+                return a.price - b.price;
+            }else if(order == 'highest'){
+                return b.price - a.price;
+            }else{
+                return a.id < b.id ? 1 : -1
+            } 
+        })
+        setProducts(newProducts)
     }
 
 

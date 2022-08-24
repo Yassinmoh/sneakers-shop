@@ -126,6 +126,6 @@ export const productData=[
         SKU:62,
         Category:["Men"],
         image:"./product-10.jpg",
-        size:['xxl']
+        size:['l']
     },
 ]

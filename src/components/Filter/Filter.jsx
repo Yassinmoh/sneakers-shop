@@ -1,7 +1,7 @@
 import React from 'react'
 import './filter.css'
 import { BsSearch } from 'react-icons/bs'
-const Filter = ({sort,size,handleFilterByOrder,handleFilterBySize}) => {
+const Filter = ({products,sort,size,handleFilterByOrder,handleFilterBySize}) => {
     return (
         <>
             <div className="search">
@@ -9,7 +9,7 @@ const Filter = ({sort,size,handleFilterByOrder,handleFilterBySize}) => {
                 <BsSearch />
             </div>
             <div className="productFilterTyps-section">
-                <h5 className="num-of-products">Number of Products : 12</h5>
+                <h5 className="num-of-products">Number of Products : {products.length}</h5>
                 <div className="filter-by-size">
                     <span>filter by size: </span>
                     <select value={size} className="filter-select" onChange={handleFilterBySize}>
